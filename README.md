@@ -31,6 +31,13 @@ npm run reset-db
 
 (Reinicia los datos y deja el servidor corriendo.)
 
+## Despliegue en Render (gratis)
+
+El archivo `render.yaml` configura el servicio. En Render: **New → Blueprint** → elegir este repositorio → **Apply**.
+
+- El plan gratuito se "duerme" tras 15 minutos sin uso; la primera visita después tarda ~1 minuto en responder.
+- Cada vez que el servicio se reinicia o se vuelve a desplegar, los datos vuelven al estado inicial.
+
 ## Usuarios de prueba
 
 | Rol | Correo | Contraseña |

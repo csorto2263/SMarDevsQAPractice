@@ -8,5 +8,8 @@
     "build": "npm run build --prefix client",
     "start": "node server/index.js",
     "reset-db": "node server/index.js --reset"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

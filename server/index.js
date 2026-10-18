@@ -41,6 +41,8 @@ const role = (...roles) => (req, res, next) =>
 
 const api = express.Router();
 
+api.get('/health', (req, res) => res.json({ status: 'ok' }));
+
 // ---------- Auth ----------
 api.post('/auth/login', (req, res) => {
   const { email, password } = req.body || {};
