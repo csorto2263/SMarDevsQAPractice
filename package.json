@@ -1,0 +1,12 @@
+{
+  "name": "smardevs-inventario",
+  "version": "1.4.2",
+  "private": true,
+  "description": "SMarDevs Inventario - sistema de inventario y ventas",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js",
+    "reset-db": "node server/index.js --reset"
+  }
+}

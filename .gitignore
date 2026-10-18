@@ -1,0 +1,7 @@
+node_modules/
+client/dist/
+server/data/
+answer-key/
+*.log
+PROMPT_MAESTRO.md
+.claude/
